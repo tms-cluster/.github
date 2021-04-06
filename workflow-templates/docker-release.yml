@@ -22,4 +22,9 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Build and publish docker image
-        uses: tms-cluster/action-release-docker
+        uses: tms-cluster/action-release-docker@v1beta
+        with:
+          release-tag: 0.0.1
+          docker-username: ${{ secrets.DOCKER_USERNAME }}
+          docker-password: ${{ secrets.DOCKER_PASSWORD }}
+          docker-registry: ${{ secrets.DOCKER_REGISTRY }}
