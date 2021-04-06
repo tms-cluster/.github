@@ -1,0 +1,11 @@
+{
+    "name": "Release Docker Image",
+    "description": "Build, tag and publish Docker image on release.",
+    "iconName": "example-icon",
+    "categories": [
+        "Release"
+    ],
+    "filePatterns": [
+        "^Dockerfile"
+    ]
+}
