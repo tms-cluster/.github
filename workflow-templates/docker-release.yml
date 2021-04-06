@@ -9,7 +9,7 @@ on:
       - created
       
 env:
-  IMAGE_NAME: sylvanld/webserver-demo
+  IMAGE_NAME: <replace-me>
   RELEASE_TAG: ${GITHUB_REF#refs/tags/}
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
